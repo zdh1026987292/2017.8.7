@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="jquery.min.js">
+			
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				var n = 1;
+				
+					$('#box').click(function(){
+						
+						if(n==1){
+							$(this).css({'background':'green'})
+							n=0;
+						
+						}else if(n==0){
+					
+						
+							$(this).css({'background':'blue'})
+							n=1;
+						}
+					
+				
+						
+						
+					})
+					
+				
+			})
+		</script>
+		<style type="text/css">
+			#box{
+				width:100px;
+				height:100px;
+				background: red;
+				margin:0  auto;
+				margin-top: 200px;
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<div id="box">
+			
+		</div>
+	</body>
+</html>
